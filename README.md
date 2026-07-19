@@ -143,7 +143,14 @@ npm run dev
 
 ## 📸 Screenshots
 
-Add screenshots of your application here.
+<img width="1919" height="946" alt="Screenshot 2026-07-19 163556" src="https://github.com/user-attachments/assets/473d2c06-a502-48c9-a19e-7615e9126fbf" />
+
+<img width="1918" height="414" alt="Screenshot 2026-07-19 163621" src="https://github.com/user-attachments/assets/4342fb89-4f15-4600-978d-d2d722c0816c" />
+
+<img width="1919" height="887" alt="Screenshot 2026-07-19 163706" src="https://github.com/user-attachments/assets/045081a7-f096-48c8-94cb-e372c7943a95" />
+
+<img width="959" height="443" alt="3" src="https://github.com/user-attachments/assets/05b705d3-aaf4-47b2-ae80-38b1a1bab87c" />
+
 
 ---
 
