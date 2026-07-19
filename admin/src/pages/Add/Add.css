@@ -1,0 +1,57 @@
+.add {
+  width: 100%;
+  max-width: 500px;
+  margin: 30px;
+}
+
+.add h2 {
+  margin-bottom: 20px;
+}
+
+.add form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.add input,
+.add textarea {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  outline: none;
+}
+
+.add textarea {
+  resize: none;
+  height: 100px;
+}
+
+.add button {
+  padding: 10px;
+  background-color: #ff4d2e;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.add button:hover {
+  background-color: #e63e1f;
+}
+
+.upload-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px dashed #ccc;
+  width: 120px;
+  height: 120px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.upload-icon {
+  width: 100px;
+  cursor: pointer;
+}

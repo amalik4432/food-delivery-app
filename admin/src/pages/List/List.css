@@ -1,0 +1,127 @@
+.list {
+  width: 90%;
+  margin: 30px auto;
+}
+
+.list h2 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* CARD */
+.list-item {
+  position: relative;
+
+  display: flex;
+  align-items: center;
+  gap: 20px;
+
+  padding: 15px;
+  margin-bottom: 15px;
+
+  border: 1px solid #ddd;
+  border-radius: 10px;
+
+  background: #fff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+/* IMAGE */
+.list-item img {
+  width: 120px;
+  height: 120px;
+
+  object-fit: cover;
+  object-position: center;
+
+  border-radius: 10px;
+
+  flex-shrink: 0;
+}
+
+/* CONTENT */
+.list-item-content {
+  flex: 1;
+}
+
+.list-item h3 {
+  margin: 0 0 8px;
+  color: #222;
+}
+
+.list-item p {
+  margin: 4px 0;
+  color: #555;
+}
+
+.list-item .price {
+  font-weight: bold;
+  color: tomato;
+  font-size: 18px;
+}
+
+/* DELETE BUTTON (TOP RIGHT) */
+.delete-btn {
+  position: absolute;
+  top: 8px;
+  right: 10px;
+
+  width: 26px;
+  height: 26px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-size: 18px;
+  font-weight: bold;
+
+  color: red;
+  background: #fff;
+
+  border: 1px solid #ddd;
+  border-radius: 50%;
+
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.delete-btn:hover {
+  background: red;
+  color: #fff;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+  .list {
+    width: 95%;
+  }
+
+  .list-item {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .list-item img {
+    width: 100%;
+    height: 200px;
+  }
+}
+
+@media (max-width: 480px) {
+  .list-item img {
+    height: 160px;
+  }
+
+  .list-item h3 {
+    font-size: 18px;
+  }
+
+  .list-item p {
+    font-size: 14px;
+  }
+
+  .list-item .price {
+    font-size: 16px;
+  }
+}
